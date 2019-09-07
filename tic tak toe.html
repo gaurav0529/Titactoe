@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tic tac toe</title>
+	<link rel="stylesheet" type="text/css" href="tictac.css">
+
+	<!-- <script type="text/javascript" src="tic tak toe.js"></script> -->
+	<script type="text/javascript" src="btw2player.js"></script>
+
+	<!-- <script type="text/javascript" src="tictaktoecomp.js"></script> -->
+</head>
+<body >
+	<div class="header" >
+		<center>
+		<h1 class="heading">Tic Tac Toe</h1>
+	</center>
+	<form>
+	<button type="submit" id="refresh" onclick="clear()">Refresh</button>
+	<br>
+
+
+<h2 id="p1"></h2>
+<script type="text/javascript">
+	document.getElementById("p1").innerHTML=("Player 1 has "+c1 +"<br>" );
+</script>
+
+<h2 id="p2"></h2>
+<script type="text/javascript">
+	document.getElementById("p2").innerHTML=("Player 2 has "+c2 +"<br>" );
+</script>
+
+<div class="table">
+	
+<center>
+
+	<table class="box" border="solid 5px black" cellpadding="30px" >
+	
+	<tr>
+		<td id="0" onclick="func(this)" ></td>
+		<td id="1" onclick="func(this)" ></td>
+		<td id="2" onclick="func(this)"></td>
+	</tr>
+
+
+	<tr>
+		<td id="3" onclick="func(this)" ></td>
+		<td id="4" onclick="func(this)" ></td>
+		<td id="5" onclick="func(this)"></td>
+	</tr>
+
+
+	<tr>
+		<td id="6" onclick="func(this)" ></td>
+		<td id="7" onclick="func(this)" ></td>
+		<td id="8" onclick="func(this)"></td>
+	</tr>
+	
+</table>
+</center>
+</form>
+</body>
+</html>

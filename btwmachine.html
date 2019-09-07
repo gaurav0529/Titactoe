@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tic tac toe</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="tictac.css">
+	<script type="text/javascript" src="tictaktoecomp.js"></script>
+</head>
+<body >
+	<div class="container-fluid header">
+			<a href="index.html"><h1 id="heading">Tic-Tac-Toe</h1></a>
+	</div>
+
+<div class="container-fluid assignment">
+			<div class="row">
+			<div class="col">
+			<center>
+			<h2 id="p1" class="font1 pt-2"></h2></center>
+				<script type="text/javascript">
+				document.getElementById("p1").innerHTML=("Machine gives you "+v +"<br>" );
+				</script>
+			</div>
+		</div>
+</div>
+
+
+
+<div class="container-fluid redwhite game ">	
+	<div class="container">
+		<div class="row">
+			<div class="col">
+			<form name="tictac">
+				<button type="submit" id="refresh" class="font1" onclick="clear()">Refresh</button>
+			</form>
+			</div>
+
+			<div class="col table ">
+				<form name="tictac">
+				<table class="box" border="solid 15px black" cellpadding="30px" >
+	
+				<tr>
+					<td id="0" onclick="func(this)" ></td>
+					<td id="1" onclick="func(this)" ></td>
+					<td id="2" onclick="func(this)"></td>
+				</tr>
+
+
+				<tr>
+					<td id="3" onclick="func(this)" ></td>
+					<td id="4" onclick="func(this)" ></td>
+					<td id="5" onclick="func(this)"></td>
+				</tr>
+
+
+				<tr>
+					<td id="6" onclick="func(this)" ></td>
+					<td id="7" onclick="func(this)" ></td>
+					<td id="8" onclick="func(this)"></td>
+				</tr>
+	
+				</table>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+				
+		
+
+</body>
+</html>
